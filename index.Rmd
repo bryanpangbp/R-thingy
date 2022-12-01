@@ -1,0 +1,60 @@
+---
+title: "My first notebook"
+author: Bryan Pang
+date: 1 Dec 2022
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Heading 1 
+This is just normal text. This is **bold** This is *italics*
+
+\
+\
+Other text here.
+
+<!-- to write a comment, go to code, comment/uncomment lines -->
+
+## Heading 2 {#markdown-header}
+a few text here
+
+### Heading 3
+More text here and [this is the link](#markdown-header).
+
+This is a link to an [external website](https://www.psychol.cam.ac.uk/staff/bryan-pang)
+
+Thist text has a footnote [^1]
+
+[^1]: This is my footnote text.
+
+1. Item 1
+2. Item 2
+3. Item 3
+    a. Item 3a
+        i. Item 3ai
+4. Item 4
+
+- [ ] an unchecked task list item
+- [x] checked item
+
+# Inserting images
+![Funny logo](img/logo_xd.png)
+
+| Left align  | Center align | Right align  |
+| :---        |    :----:    |         ---: |
+| Item 1,1    | Item 1,2     | Item 1,3     | 
+| Item 2,1    | Item 2,2     | Item 2,3     |
+
+I want to add a block here 
+
+> Here is my block
+
+<!-- Write your code without running it this way -->
+```
+print("Hello world")
+x <- 1+2
+print(x)
+```
+
